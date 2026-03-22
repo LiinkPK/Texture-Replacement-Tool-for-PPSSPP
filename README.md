@@ -63,6 +63,9 @@ python app.py
 
 The entry will be written in the correct format and sorted alphabetically within its section.
 
+<img width="521" height="355" alt="1" src="https://github.com/user-attachments/assets/7018aad7-3e16-4164-9d89-a4678464106a" />
+<img width="521" height="355" alt="2" src="https://github.com/user-attachments/assets/b1ba26b2-bc45-49ad-93fa-7c4de47c721c" />
+
 ---
 
 ## textures.ini format

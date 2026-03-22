@@ -67,6 +67,7 @@ The entry will be written in the correct format and sorted alphabetically within
 
 ## textures.ini format
 
+PPSSPP identifies textures using only the last 8 digits of their hash code. The tool automatically formats the entry so only those 8 digits are written to the .ini file.
 The tool uses `#` for top-level categories and `##` for sub-categories:
 ```
 #Characters
@@ -81,7 +82,7 @@ The tool uses `#` for top-level categories and `##` for sub-categories:
 
 ## PPSSPP Settings
 
-After appending the entires to the .ini file, make sure texture replacement is enabled in PPSSPP:
+After appending the entries to the .ini file, make sure `texture replacement` is enabled in PPSSPP:
 
 `Settings > Tools > Developer tools > Texture replacement > Replace textures`
 

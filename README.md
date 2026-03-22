@@ -1,2 +1,102 @@
-# Dissidia012TRT
-Dissidia 012 Texture Replacement Tool
+# Dissidia 012 Texture Replacement Tool
+
+A desktop tool for managing HD texture replacements for Dissidia 012 Final Fantasy (PPSSPP).
+
+---
+
+## Features
+
+- Browse and preview original and replacement PNG textures side by side
+- Automatically appends entries to `textures.ini` in the correct format
+- Organizes entries by category and sub-category
+- Alphabetically sorts entries within each section
+- Detects duplicate entries before writing
+- Warns if replacement texture has a different aspect ratio
+- Game history sidebar — save multiple game folders and switch between them
+- Dark and light theme toggle
+- Open `textures.ini` directly from the app
+
+---
+
+## How to use
+
+### Running the exe
+1. Download `Dissidia 012 TRT.exe` from the [Releases](../../releases) page
+2. Place it anywhere on your computer
+3. Run it — no installation required
+
+### Running from source
+Requirements:
+- Python 3.12
+- Pillow
+
+Install dependencies:
+```
+pip install pillow
+```
+
+Run:
+```
+python app.py
+```
+
+---
+
+## Setup
+
+1. Click **+ Add Game Folder** in the left sidebar
+2. Navigate to your PPSSPP textures folder, e.g.:
+   `Documents\PPSSPP\PSP\TEXTURES\ULES01505`
+3. Give it a display name (e.g. "Dissidia 012 EUR")
+4. Click the game in the sidebar to load it
+5. Make sure "textures.ini" is inside that folder.
+
+---
+
+## Adding a texture replacement
+
+1. Select the **original texture PNG** — this is the file extracted from the game
+2. Select the **replacement texture PNG** — your new HD version
+3. Select or load your **textures.ini** file
+4. Choose a **Category** and **Sub-Category** if applicable
+5. Click **Append to textures.ini**
+
+The entry will be written in the correct format and sorted alphabetically within its section.
+
+---
+
+## textures.ini format
+
+The tool uses `#` for top-level categories and `##` for sub-categories:
+```
+#Characters
+##Aerith
+0000000000000000668a48bc = Characters/Aerith/AerithMenuPort.png
+
+#JobCards
+00000000000000000e58e631 = JobCards/WhiteMage.png
+```
+
+---
+
+## PPSSPP Settings
+
+After appending the entires to the .ini file, make sure texture replacement is enabled in PPSSPP:
+
+`Settings > Tools > Developer tools > Texture replacement > Replace textures`
+
+---
+
+## Links
+
+- 🎮 [Discord](https://discord.gg/wbpgtKNSM7)
+- 🐙 [GitHub](https://github.com/LiinkPK/Dissidia-012-HD-Textures)
+- 👾 [Reddit](https://www.reddit.com/r/dissidia/comments/1g6peh2/dissidia_012_hd_remastered_wip/)
+- 🎨 [Patreon](https://www.patreon.com/c/LinkG/membership)
+- 💙 [PayPal](https://www.paypal.com/paypalme/liinkpk)
+
+---
+
+*Thank you so much for using this tool!*
+
+*Created by Link Garcia*

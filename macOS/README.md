@@ -4,6 +4,13 @@ A desktop tool for managing HD texture replacements for Dissidia 012 Final Fanta
 
 ---
 
+### **Platform Support**
+
+- Windows
+- macOS
+
+---
+
 ## Features
 
 - Browse and preview original and replacement PNG textures side by side
@@ -88,6 +95,8 @@ The tool uses `#` for top-level categories and `##` for sub-categories:
 After appending the entries to the .ini file, make sure `texture replacement` is enabled in PPSSPP:
 
 `Settings > Tools > Developer tools > Texture replacement > Replace textures`
+
+> **Compatibility:** While this tool was built specifically for Dissidia 012, it may work with other PSP games that use a similar texture replacement setup. This has not been tested yet — feel free to test it and share your experience on [Issues](https://github.com/LiinkPK/Dissidia-012-Texture-Replacement-Tool/issues) or on our [Discord server](https://discord.gg/wbpgtKNSM7).
 
 ---
 

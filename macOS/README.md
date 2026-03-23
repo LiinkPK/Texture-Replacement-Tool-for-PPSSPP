@@ -25,17 +25,17 @@ A desktop tool for managing HD texture replacements for Dissidia 012 Final Fanta
 
 ---
 
-## How to use
+## Installation
 
 ### Windows
-1. Download `dissidia012trt_win.zip` from the [Releases](../../releases) page.
-2. Extract the downloaded zip file anywhere on your computer.
-3. Run `Dissidia 012 TRT.exe`. **No installation required**.
+1. Download `Dissidia012TRT.exe` from the [Releases](../../releases) page.
+2. Place the file anywhere on your computer.
+3. Run `Dissidia012TRT.exe`. **No installation required**.
 
-### MacOS
-1. Download `dissidia012trt_macOS.zip` from the [Releases](../../releases) page.
-2. Extract the downloaded zip file anywhere on your computer.
-3. Drag `Dissidia 012 TRT.app` file into your **Applications** folder.
+### macOS
+1. Download `Dissidia012TRT.dmg` from the [Releases](../../releases) page.
+2. Open the file to mount the disk image.
+3. Drag `Dissidia 012 TRT.app` into your **Applications** folder. Replace if prompted.
 4. Run it from Applications.
 
 ---

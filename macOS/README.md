@@ -3,7 +3,8 @@
 A desktop tool for managing HD texture replacements for any game running on PPSSPP.
 
 > Previously called **_Dissidia 012 Texture Replacement Tool_**
-Title has been changed after testing the tool with several games and seeing that it works with all that were tested.
+>
+> Title has been changed after testing the tool with several games and seeing that it works with all that were tested.
 
 ---
 

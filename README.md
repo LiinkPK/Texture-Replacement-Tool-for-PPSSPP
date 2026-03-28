@@ -47,32 +47,33 @@ xattr -cr /Applications/PPSSPP\ TRT.app/
 ```
 
 5. Confirm by typing your password if prompted.
-6. Run it from Applications.
+6. Run it from **Applications**.
 
 ---
 
 ## Setup
 
 1. Click **+ Add Game Folder** in the left sidebar.
-2. Navigate to your PPSSPP textures folder, e.g.:
+2. Navigate to your game's textures folder containing `textures.ini`, e.g.:
    `Documents\PPSSPP\PSP\TEXTURES\ULES01505`
 3. Give it a display name (e.g. "Dissidia 012 EUR").
 4. Game's `texture.ini` and its folder will be loaded when selecting the game.
 
-> **Make sure "textures.ini" is inside that folder or else appending won't work as intented.**
+> **Make sure `textures.ini` is inside that folder or else appending won't work as intented.**
 
 ---
 
 ## Adding a texture replacement
 
-1. Select the **original texture PNG** — this is the file extracted from the game.
-2. Select the **replacement texture PNG** — your new HD version.
-3. Select or load your **textures.ini** file.
-4. Choose a **Category** and **Sub-Category** if applicable.
-5. Click **Append to textures.ini**.
+1. Select the **original texture PNG**: the file extracted from the game, e.g.: `08c464508327c8adba260ba9.png`
+2. Select the **replacement texture PNG**: your new HD version, e.g.: `Characters/Tifa/TifaPreBattle.png`
+4. Select or load your **textures.ini** file.
+5. Choose a **Category** and **Sub-Category** if applicable.
+6. Click **Append to textures.ini**.
 
 The entry will be written in the correct format and sorted alphabetically within its section.
 
+> **Do not include spaces or invalid characters. Type everything together or separate it using - or _. Can include numbers.**
 ---
 
 ## It is very important to **NOT** rename the original file.
@@ -81,7 +82,7 @@ It should maintain its hexadecimal string for the replacement to work.
 
 **Example:**
 
->If the filename is `0000000000000000668a48bc.png` do not change it to `AerithTexture_old.png` or PPSSPP will not overwrite it.
+>If the filename is `08f8a0600867fb0f764f3a0d.png` do not change it to `KainPortrait_old.png` or PPSSPP will not overwrite it.
 ---
 
 <img width="522" height="356" alt="App1" src="https://github.com/user-attachments/assets/0968b850-b526-4976-b044-afacc18ddc63" /><img width="522" height="356" alt="App2" src="https://github.com/user-attachments/assets/0e4c2377-3d96-4d93-8eda-fe827a2fce6f" />

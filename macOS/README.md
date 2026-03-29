@@ -1,6 +1,6 @@
-[[# PPSSPP Texture Replacement Tool
+# PPSSPP Texture Replacement Tool
 
-A desktop tool for managing HD texture replacements for any game running on [PPSSPP](https://github.com/hrydgard/ppsspp).
+A desktop tool for managing HD texture replacements for any game running on [PPSSPP](https://github.com/hrydgard/PPSSPP).
 
 > Previously called **_Dissidia 012 Texture Replacement Tool_**.
 >
@@ -129,4 +129,3 @@ Feel free to test it and share your experience on [Issues](../../issues) or on o
 *Thank you so much for using this tool!*
 
 *Created by Link Garcia*
-](https://github.com/hrydgard/PPSSPP)](https://github.com/hrydgard/PPSSPP)

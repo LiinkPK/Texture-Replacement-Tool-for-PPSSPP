@@ -1,10 +1,10 @@
-# PPSSPP Texture Replacement Tool
+# Texture Replacement Tool for PPSSPP
 
 A desktop tool for managing HD texture replacements for any game running on [PPSSPP](https://github.com/hrydgard/PPSSPP).
 
 > Previously called **_Dissidia 012 Texture Replacement Tool_**.
 >
-> Title has been changed after testing the tool with several games and seeing that it works with all that were tested.
+> Title has been changed after testing the tool with several games and seeing that it works with all that were tested. Also, PPSSPP's creator [hrydgard](github.com/hrydgard/) asked for the tool to be renamed, since its previous name made it look too official.
 
 ---
 
@@ -93,7 +93,8 @@ It should maintain its hexadecimal string for the replacement to work.
 
 ## textures.ini format
 
-PPSSPP identifies textures using only the last 8 digits of their hash code. The tool automatically formats the entry so only those 8 digits are written to the .ini file.
+PPSSPP identifies textures using a hash code made up of three parts: the memory address, the CLUT (palette) hash, and the data hash. This tool disregards the memory address and uses the remaining 16 digits, prefixed with eight zeroes. This tells PPSSPP to match the texture regardless of its memory address, and the entry is formatted and written to the .ini file automatically.
+
 The tool uses `>` for top-level categories and `>>` for sub-categories:
 ```
 >Characters

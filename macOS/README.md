@@ -97,7 +97,7 @@ It should maintain its hexadecimal string for the replacement to work.
 
 ## textures.ini format
 
-PPSSPP identifies textures using a hash code made up of three parts: the memory address, the CLUT (palette) hash, and the data hash. This tool disregards the memory address and uses the remaining 16 digits, prefixed with eight zeroes. This tells PPSSPP to match the texture regardless of its memory address, and the entry is formatted and written to the .ini file automatically.
+PPSSPP identifies textures using a hash code made up of three parts: the memory address, the CLUT (palette) hash, and the data hash. This tool disregards the memory and CLUT address and uses the remaining 8 digits, prefixed with 16 zeroes. This tells PPSSPP to match the texture regardless of its memory and palette address, and the entry is formatted and written to the .ini file automatically.
 
 The tool uses `>` for top-level categories and `>>` for sub-categories:
 ```

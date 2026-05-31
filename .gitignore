@@ -10,3 +10,4 @@ app.py
 git rm --cached app.py
 git rm --cached app_mac.py
 *.bat
+Compilation code.txt
